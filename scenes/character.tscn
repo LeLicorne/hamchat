@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cwbhav7sqtfhn"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_agfs1"]
+
+[node name="Character" type="Node3D" unique_id=709472441]
+
+[node name="ProtoController" parent="." unique_id=1182880664 instance=ExtResource("1_agfs1")]
+can_sprint = true
+input_left = "move_left"
+input_right = "move_right"
+input_forward = "move_forward"
+input_back = "move_backward"
+input_jump = "jump"

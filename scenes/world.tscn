@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dehkx7pp0lsga"]
+
+[node name="World" type="Node3D" unique_id=1020676983]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=74573226]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5005318, 0)
+use_collision = true
+size = Vector3(40, 1, 40)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1672410790]
+transform = Transform3D(1, 0, 0, 0, 0.70710665, 0.7071069, 0, -0.7071069, 0.70710665, 0, 36.70552, 0)
+shadow_enabled = true
+sky_mode = 1

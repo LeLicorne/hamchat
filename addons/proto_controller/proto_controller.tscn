@@ -1,0 +1,130 @@
+[gd_scene format=3 uid="uid://bs72ogkvdd7d6"]
+
+[ext_resource type="Script" uid="uid://cimc1bieec8bn" path="res://addons/proto_controller/proto_controller.gd" id="1_ucva2"]
+[ext_resource type="PackedScene" uid="uid://djb0mbtylh3u4" path="res://models/KayKit_Adventurers_2.0_FREE/Characters/gltf/Knight.glb" id="2_wr06p"]
+[ext_resource type="Animation" uid="uid://d2s6i1ueq8msf" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Death_A.res" id="3_5m5cv"]
+[ext_resource type="Animation" uid="uid://mv80eygiv4l6" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Death_A_Pose.res" id="4_67dbh"]
+[ext_resource type="Animation" uid="uid://cmuk8fckebpb4" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Death_B.res" id="5_r6xfq"]
+[ext_resource type="Animation" uid="uid://cynfgx6s7hb1l" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Death_B_Pose.res" id="6_kwktf"]
+[ext_resource type="Animation" uid="uid://b77xg26008oy" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Hit_A.res" id="7_my838"]
+[ext_resource type="Animation" uid="uid://cwy7143cdw2ym" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Hit_B.res" id="8_yfih1"]
+[ext_resource type="Animation" uid="uid://bo7hh0lbp2eia" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Idle_A.res" id="9_wf4iu"]
+[ext_resource type="Animation" uid="uid://bww71v84sdfpq" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Idle_B.res" id="10_vbg4x"]
+[ext_resource type="Animation" uid="uid://ca4dlbi7rto3p" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Interact.res" id="11_6c3s7"]
+[ext_resource type="Animation" uid="uid://bga3gcygc3s5v" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/PickUp.res" id="12_hty6k"]
+[ext_resource type="Animation" uid="uid://c5d8dfaxxrfti" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Spawn_Air.res" id="13_7u7mq"]
+[ext_resource type="Animation" uid="uid://7q034plecvsr" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Spawn_Ground.res" id="14_6ebsp"]
+[ext_resource type="Animation" uid="uid://b7angwfdosh4w" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/T-Pose.res" id="15_32aud"]
+[ext_resource type="Animation" uid="uid://c5dr4yh7trd13" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Throw.res" id="16_dhokf"]
+[ext_resource type="Animation" uid="uid://bhr2fidrht7lx" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/general/Use_Item.res" id="17_j8uk2"]
+[ext_resource type="Animation" uid="uid://bfn45x7kk8n8j" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Jump_Full_Long.res" id="18_k6ow3"]
+[ext_resource type="Animation" uid="uid://doj08c2kpgqgu" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Jump_Full_Short.res" id="19_57eg7"]
+[ext_resource type="Animation" uid="uid://ckfbvgikaeodf" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Jump_Idle.res" id="20_m6k48"]
+[ext_resource type="Animation" uid="uid://xgjf7f0b5edl" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Jump_Land.res" id="21_s7cu6"]
+[ext_resource type="Animation" uid="uid://csba0rlew72i5" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Jump_Start.res" id="22_di43o"]
+[ext_resource type="Animation" uid="uid://qdkt1k704dgg" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Running_A.res" id="23_xu2xr"]
+[ext_resource type="Animation" uid="uid://dy0bans67kex" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Running_B.res" id="24_btnnh"]
+[ext_resource type="Animation" uid="uid://yf5r6fyy5610" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/T-Pose.res" id="25_0vv6b"]
+[ext_resource type="Animation" uid="uid://cn5w61126gpod" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Walking_A.res" id="26_54y7o"]
+[ext_resource type="Animation" uid="uid://g81w8hnqvsb8" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Walking_B.res" id="27_o6k5j"]
+[ext_resource type="Animation" uid="uid://cu1ajsdbw7i0o" path="res://models/KayKit_Character_Animations_1.1/Animations/gltf/Rig_Medium/basics/Walking_C.res" id="28_eo5oa"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_t50s5"]
+_data = {
+&"Death_A": ExtResource("3_5m5cv"),
+&"Death_A_Pose": ExtResource("4_67dbh"),
+&"Death_B": ExtResource("5_r6xfq"),
+&"Death_B_Pose": ExtResource("6_kwktf"),
+&"Hit_A": ExtResource("7_my838"),
+&"Hit_B": ExtResource("8_yfih1"),
+&"Idle_A": ExtResource("9_wf4iu"),
+&"Idle_B": ExtResource("10_vbg4x"),
+&"Interact": ExtResource("11_6c3s7"),
+&"PickUp": ExtResource("12_hty6k"),
+&"Spawn_Air": ExtResource("13_7u7mq"),
+&"Spawn_Ground": ExtResource("14_6ebsp"),
+&"T-Pose": ExtResource("15_32aud"),
+&"Throw": ExtResource("16_dhokf"),
+&"Use_Item": ExtResource("17_j8uk2")
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ks1bl"]
+_data = {
+&"Jump_Full_Long": ExtResource("18_k6ow3"),
+&"Jump_Full_Short": ExtResource("19_57eg7"),
+&"Jump_Idle": ExtResource("20_m6k48"),
+&"Jump_Land": ExtResource("21_s7cu6"),
+&"Jump_Start": ExtResource("22_di43o"),
+&"Running_A": ExtResource("23_xu2xr"),
+&"Running_B": ExtResource("24_btnnh"),
+&"T-Pose": ExtResource("25_0vv6b"),
+&"Walking_A": ExtResource("26_54y7o"),
+&"Walking_B": ExtResource("27_o6k5j"),
+&"Walking_C": ExtResource("28_eo5oa")
+}
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iof21"]
+albedo_color = Color(0.91806, 0.575202, 0.222449, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ucva2"]
+radius = 0.4
+height = 1.8
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_iof21"]
+radius = 0.4
+height = 1.8
+
+[node name="ProtoController" type="CharacterBody3D" unique_id=1899952651]
+script = ExtResource("1_ucva2")
+
+[node name="Knight" parent="." unique_id=1033482537 instance=ExtResource("2_wr06p")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Skeleton3D" parent="Knight/Rig_Medium" parent_id_path=PackedInt32Array(1033482537, 441607855) index="0" unique_id=1578420317]
+bones/1/position = Vector3(0, 0.50566393, 0)
+bones/4/position = Vector3(0.21200737, 0.13413215, 8.402462e-08)
+bones/4/rotation = Quaternion(-0.66496044, -0.3426384, -0.3717755, 0.5497359)
+bones/5/rotation = Quaternion(1.2911908e-08, -5.1332766e-08, -0.56506604, 0.8250457)
+bones/6/rotation = Quaternion(2.6357031e-11, 6.232488e-10, 0.026658094, 0.99964464)
+bones/6/scale = Vector3(1.0000001, 1, 1)
+bones/7/rotation = Quaternion(-0.09032972, 0.047568694, 0.49032792, 0.8655382)
+bones/8/rotation = Quaternion(-3.58774e-09, 6.9489703e-09, -0.7071068, 0.7071067)
+bones/9/position = Vector3(-0.21200737, 0.13413215, 8.402462e-08)
+bones/9/rotation = Quaternion(-0.6488732, 0.37176114, 0.39684537, 0.53223205)
+bones/10/rotation = Quaternion(1.9005892e-08, 5.837329e-08, 0.5037367, 0.8638574)
+bones/11/rotation = Quaternion(-3.002606e-08, -9.604189e-09, -0.026658088, 0.99964464)
+bones/11/scale = Vector3(1.0000001, 1.0000001, 1)
+bones/12/rotation = Quaternion(-0.019008981, -0.092694566, -0.4567224, 0.8845626)
+bones/13/rotation = Quaternion(-9.535865e-10, -4.3147668e-09, 0.7071068, 0.7071067)
+bones/15/position = Vector3(-0.17094505, 0.11358726, 1.3923275e-08)
+bones/15/rotation = Quaternion(0.90056896, -0.02885506, -0.04152075, 0.43176284)
+bones/16/rotation = Quaternion(0.8142697, -4.171492e-08, 5.675865e-07, 0.5804867)
+bones/17/rotation = Quaternion(-0.593811, 0.050659798, -0.04441551, 0.8017789)
+bones/18/rotation = Quaternion(6.790784e-05, 0.92017806, -0.39150006, -1.5292379e-05)
+bones/19/position = Vector3(0.17094505, 0.11358726, 1.3923275e-08)
+bones/19/rotation = Quaternion(0.95066243, 0.023711681, 0.025923882, 0.3082317)
+bones/20/rotation = Quaternion(0.60879123, 5.1442058e-08, -4.2241257e-07, 0.79333043)
+bones/21/rotation = Quaternion(-0.36361778, -0.047520626, 0.017646855, 0.93016803)
+bones/22/rotation = Quaternion(2.6600152e-05, 0.9204544, -0.39085022, -5.9030026e-06)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Knight" unique_id=1127647355]
+libraries/general = SubResource("AnimationLibrary_t50s5")
+libraries/movement = SubResource("AnimationLibrary_ks1bl")
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=355019845]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+visible = false
+material_override = SubResource("StandardMaterial3D_iof21")
+cast_shadow = 0
+mesh = SubResource("CapsuleMesh_ucva2")
+
+[node name="Collider" type="CollisionShape3D" parent="." unique_id=49912344]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_iof21")
+
+[node name="Head" type="Node3D" parent="." unique_id=921259486]
+transform = Transform3D(1, 0, 0, 0, 0.9396925, 0.34202015, 0, -0.34202015, 0.9396925, 0, 2.45, 1.75)
+
+[node name="Camera3D" type="Camera3D" parent="Head" unique_id=1738822902]
+
+[editable path="Knight"]
